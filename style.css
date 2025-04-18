@@ -1,0 +1,380 @@
+header{
+ 
+    background-color: rgb(218, 245, 247);
+    box-shadow: 0px 5px rgb(0, 0, 0);
+    z-index: 5;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+header nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 20px;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(241, 118, 143);
+}
+
+.logo h2{
+    padding-left: 5px;
+    margin-bottom: 7px;
+    justify-content: center;
+    color: white;
+} 
+.logo img{
+    margin-top: 2px;
+    border-radius: 10px;
+ 
+}
+.links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.links li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.links li a:hover{
+color: rgb(196, 115, 16);
+border-bottom: solid rgb(144, 234, 216);
+
+transition: 0.5s ease;
+}
+   
+#couverture{
+    background-image: url(./PHOLIOFOT/immo2.jpg);
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    background-size: cover;
+    gap: 20px;
+    background-position: center;
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+    align-content: center;
+    margin-right: 5px;
+    margin-left: 5px;
+
+  
+  
+}
+
+#couverture p,h1{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 35px;
+    margin-left: 99px;
+    align-content: center;
+}
+#home{
+    display:grid;
+    grid-template-columns:50fr 50fr ;
+    gap: 10px;
+    padding: 10px;
+    height: 100%;
+}
+.banner-img img{
+width: 60%;
+height: 70%;
+border-radius: 90PX;
+box-shadow: 0px 5px rgb(0, 0, 0);
+animation: backwards;
+}
+.banner-img h1{
+    color: black;
+    font-size: 30px;
+    text-align: left;
+    margin-left: 10px;
+}
+
+.banner-img img:hover{
+    color: rgb(102, 219, 219);
+    animation: alternate-reverse;
+ 
+}
+.banner-text h2{
+    display: flex;
+    flex-direction: column;
+    color: rgba(239, 239, 248, 0.913);
+    font: size 4px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 1px;
+}
+
+.banner-text p{
+    display: flex;
+    background-color: white;
+    color: rgb(21, 20, 20);
+    border-radius:15px;
+    font-size: 23px;
+    margin-top: 1px;
+    padding-left: 5px;
+    justify-content: center;
+   
+
+}
+.barnner.couleur{
+    display: flex;
+    justify-content: left;
+
+}
+
+h3{
+    color: rgb(43, 49, 223);
+    letter-spacing: 1px 
+}
+h2{
+    color: blue;
+
+}
+
+#about{
+
+    padding:0px 0px;
+    display: flex;
+    flex-direction:column;
+    height: auto;
+    align-items: center;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+
+.about-para{
+    padding: auto;
+    background-color:white;
+    padding-top: 3ox;
+    font-size: 25px;
+    padding-left: 6px;
+    border-radius: 10px;
+}
+
+.about-content div{
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    box-shadow: 0px 2px 5px rgb(150, 7, 7);
+    font-size: 25px;
+}
+#Competetence{
+   background-color: white;
+   color: rgb(3, 3, 3);
+   margin-left: 0px;
+   margin-right: 600px;
+   border-radius: 0px 0px 10px;
+}
+#experince{
+   
+   background-color: white;
+   color: black;
+   margin-right: 2px;
+   margin-left: 600px;
+}
+
+#etude{
+    background-color: white;
+    color: black;
+    margin-left: 5px;
+    margin-right: 600px;
+ }
+ #satage{
+    background-color:white;
+    color:black;
+    margin-right: 2px;
+    margin-left: 600px;
+ }
+
+#prest{
+    display: flex;
+    padding: 20px;
+    box-shadow: 0px 2px 5px rgb(150, 7, 7);
+    flex-direction: column;
+    background-color: white;
+    border-radius: 5px 5px;
+    font-size: 25px;
+    text-align: justify;
+    margin-right: 400px;
+    margin-left: 5px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+/*.stil-prest{
+background-color: rgb(232, 226, 218);
+margin: 5px;
+border-radius: 7px;
+font-size: 25px;
+padding-left: 5px;
+
+}
+*/
+#stil-prest{
+    background-color:white;
+    color: black;
+    margin-left: 0px;
+    margin-right: 400px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+#realise{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    background-color:white;
+    box-shadow: 0px 2px 5px rgb(150, 7, 7);
+    border-radius: 5px 5px;
+    font-size: 25px;
+    margin-right: 5px;
+    margin-left: 400px;
+    justify-content: left;
+    text-align:justify;
+    margin-bottom: 5px;
+    padding-right: 100px;
+    padding-left: 0px;
+   
+}
+/*.stil-realise{
+    padding-left: 3px;
+    margin: 2px;
+    border-radius: 4px;
+    font-size: 25px;
+    background-color: rgb(184, 161, 161);
+}
+*/
+
+#stil-realise{
+    background-color: white;
+    color: black;
+    
+    align-items: center;
+    padding-left: 7px;
+    margin-left: 400px;
+    margin-left: 0px;
+
+}
+#contact{
+  margin-top: 15px;
+  margin-left: 20px;
+  display:flex ;
+  flex-direction: column;
+  justify-content:space-around;
+  align-items: center;
+  background-color:rgb(136, 186, 186);
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 400px 70px 200px 100px;
+}
+.form-data{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.input-div{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.form-data form input,.form-data form textarea{
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: solid 4px rgb(100, 178, 207);
+    width: 80%;
+}
+.input-div.envoyer{
+    display: flex;
+    width: 10px;
+    margin-left: 200px;
+
+}
+
+.infofoot{
+    background-color:black;
+    margin-top: 10px;
+  
+
+}
+.infofoot h2{
+    text-align: center;
+    color: aliceblue;
+
+}
+.footer-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2px;
+    background-color: aliceblue;
+    margin-top: 0px;
+}
+#pro{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0px;
+    gap: 30px;
+    margin-left: 7px;
+    font-size:20px ;
+}
+
+#lo{
+    display: flex;
+    flex-direction: row;
+    margin-right: 7px;
+    margin-top: 2;
+    gap: 30px;
+    font-size:20px ;
+}
+
+
+.lienboutique{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px; 
+}
+.lienboutique p{
+    margin-left: 7px;
+    font-size: 20px;
+    color: antiquewhite;
+} 
+.lienboutique .lienre {
+    display: flexbox;
+    align-items: center;
+  
+    border-radius: 30px;
+    margin: 7px;
+    padding: 15px;
+    justify-content: center;
+
+}
+a img{
+gap: 70px;
+}
+
+#copie{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(229, 233, 233);
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: azure;
+    
+    }
+    #copie p{
+        font-size: 20px;
+    }
+
